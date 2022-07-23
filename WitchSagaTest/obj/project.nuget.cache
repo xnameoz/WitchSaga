@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JfeS2sqzCxTSyyhWC5g6NExdQF0MW0NZehr3f01NMj9W7zZmQNcomOXGfdo062PW7VLVnixwvBRelMQIkVZbXA==",
+  "dgSpecHash": "RIL5c+8pkDf1abiykHRhEozpNm9muq5YcuhGwwSNjGhQpuAOGudwrQ+vmZPNJjRieVvOWEhBM6jJweIqd6ecyA==",
   "success": true,
-  "projectFilePath": "C:\\ocx\\WitchSaga\\WitchSagaTest\\WitchSagaTest.csproj",
+  "projectFilePath": "C:\\ocx\\WS\\WitchSaga\\WitchSagaTest\\WitchSagaTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAYMOND\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\RAYMOND\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

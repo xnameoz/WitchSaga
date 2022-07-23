@@ -9,7 +9,8 @@ namespace ConsoleApp1
             WitchSaga saga = new WitchSaga();
             saga.Given(10, 12);
             saga.Given(13, 17);
-            Console.WriteLine(saga.FindAverage());
+            saga.FindAverage();
+            Console.WriteLine(saga.Average);
             
         }
     }

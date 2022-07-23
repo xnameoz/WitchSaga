@@ -6135,11 +6135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ocx\\WitchSaga\\WitchSagaTest\\WitchSagaTest.csproj",
+      "projectUniqueName": "C:\\ocx\\WS\\WitchSaga\\WitchSagaTest\\WitchSagaTest.csproj",
       "projectName": "WitchSagaTest",
-      "projectPath": "C:\\ocx\\WitchSaga\\WitchSagaTest\\WitchSagaTest.csproj",
+      "projectPath": "C:\\ocx\\WS\\WitchSaga\\WitchSagaTest\\WitchSagaTest.csproj",
       "packagesPath": "C:\\Users\\RAYMOND\\.nuget\\packages\\",
-      "outputPath": "C:\\ocx\\WitchSaga\\WitchSagaTest\\obj\\",
+      "outputPath": "C:\\ocx\\WS\\WitchSaga\\WitchSagaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RAYMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6156,8 +6156,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\ocx\\WitchSaga\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "C:\\ocx\\WitchSaga\\ConsoleApp1\\ConsoleApp1.csproj"
+            "C:\\ocx\\WS\\WitchSaga\\ConsoleApp1\\ConsoleApp1.csproj": {
+              "projectPath": "C:\\ocx\\WS\\WitchSaga\\ConsoleApp1\\ConsoleApp1.csproj"
             }
           }
         }

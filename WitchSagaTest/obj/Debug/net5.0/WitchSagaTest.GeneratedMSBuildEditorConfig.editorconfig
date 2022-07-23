@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = WitchSagaTest
-build_property.ProjectDir = C:\ocx\WitchSaga\WitchSagaTest\
+build_property.ProjectDir = C:\ocx\WS\WitchSaga\WitchSagaTest\

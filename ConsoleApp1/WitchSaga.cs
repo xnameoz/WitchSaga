@@ -9,6 +9,7 @@ namespace ConsoleApp1
     public class WitchSaga
     {
         List<Person> list = new List<Person>();
+        double average;
         public void Given(int ageOfDate, int yearOfDate)
         {
             list.Add(new Person { AgeOfDate = ageOfDate, YearOfDate = yearOfDate });
@@ -33,18 +34,29 @@ namespace ConsoleApp1
             return listNo[listNo.Count - 1].Split('+').Select(Int32.Parse).ToList().Sum();
         }
 
-        public double FindAverage()
+        public void FindAverage()
         {
             int result = 0;
             foreach (var item in list)
             {
                 if (item.AgeOfDate < 1 || item.AgeOfDate > item.YearOfDate)
-                    return -1;
+                {
+                    average = -1;
+                    return;
+                }
 
                 result += PeopleKilledOnYear(item.YearOfDate - item.AgeOfDate);
             }
 
-            return ((double)result / (double)list.Count);
+            average = ((double)result / (double)list.Count);
+        }
+
+        public double Average
+        {
+            get
+            {
+                return average;
+            }
         }
     }
 }
