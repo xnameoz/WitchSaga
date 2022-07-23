@@ -39,7 +39,7 @@ namespace ConsoleApp1
             int result = 0;
             foreach (var item in list)
             {
-                if (item.AgeOfDate < 1 || item.AgeOfDate > item.YearOfDate)
+                if (item.YearOfDate - item.AgeOfDate < 1)
                 {
                     average = -1;
                     return;
