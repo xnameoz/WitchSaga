@@ -10,14 +10,14 @@ namespace WitchSagaTest
         public void TestMethod1()
         {
             WitchSaga saga = new WitchSaga();
-             saga.Given(10, 12);
-             saga.Given(13, 17);
+            saga.Given(13, 14);
+            saga.Given(13, 18);
             //saga.Given(10, 11);
             saga.FindAverage();
 
-            double expected = 4.5;
+            double expected = 6.5;
             double actual = saga.Average;
-            Assert.AreEqual(expected, actual,"Average not debited correctly");
+            Assert.AreEqual(expected, actual,"Average is not correctly");
         }
     }
 }
