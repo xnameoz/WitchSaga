@@ -7,8 +7,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             WitchSaga saga = new WitchSaga();
-            saga.Given(13, 14);
-            saga.Given(13, 18);
+            saga.Given(10, 12);
+            saga.Given(13, 17);
             saga.FindAverage();
             Console.WriteLine(saga.Average);
             
